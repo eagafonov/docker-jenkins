@@ -1,0 +1,4 @@
+jenkins:
+    build: .
+    volumes:
+        - ./data:/var/jenkins_home
